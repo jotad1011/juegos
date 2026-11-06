@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vasos de colores</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <main class="container">
+    <div class="bar">
+      <a class="back" href="../index.html">← Menú</a>
+      <button id="next">Siguiente ▶</button>
+      <button id="auto" class="alt">Auto: NO</button>
+      <select id="secs"><option value="2">2 s</option><option value="3">3 s</option><option value="4">4 s</option><option value="5">5 s</option><option value="6">6 s</option><option value="8">8 s</option><option value="10">10 s</option></select>
+      <button id="full" class="alt">⛶ Pantalla completa</button>
+    </div>
+    <p class="help">Toca la pantalla para cambiar de color y número. Con Auto cambia solo.</p>
+    <div class="screen" id="screen">
+      <div id="stage"></div>
+      <div id="prog"></div>
+      <button id="exit">✕</button>
+    </div>
+  </main>
+  <script src="../js/pantalla.js"></script>
+  <script src="../js/vasos.js"></script>
+</body>
+</html>
